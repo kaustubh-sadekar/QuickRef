@@ -1,6 +1,4 @@
-# QuickRef
-
-What topic are you looking for ?
+Which topic you would like to refer ?
 
 ## [Python QuickRef](pythonRef.md)
 ## [OpenCV QuickRef](OpenCVRef.md)
