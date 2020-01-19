@@ -32,7 +32,7 @@ print("He has %.1f grams of gold"%c) #prints >> He has 15.5 grams of gold
 ```
 
 **Getting user input**
-1. In an interractive way
+In an interractive way
 ```python
 A = input("Enter a number")
 print(A*2) # prints >> 1212 (if the number entered was 12)
