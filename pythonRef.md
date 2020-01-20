@@ -32,7 +32,7 @@ print("He has %.1f grams of gold"%c) #prints >> He has 15.5 grams of gold
 ```
 
 **Getting user input**
-In an interractive way
+
 ```python
 A = input("Enter a number")
 print(A*2) # prints >> 1212 (if the number entered was 12)
@@ -45,3 +45,6 @@ print(A*2) # Now prints >> 24 (if A = 12)
 A = int(input("Enter a number"))
 ```
 
+**Pass argument through terminal while you run the script**
+
+code1.py  
