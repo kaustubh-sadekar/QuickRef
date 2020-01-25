@@ -109,8 +109,109 @@ else :
   print("SORRY! AND BYE!")
 ```
 
+### Lists in python
+As the name suggests we can enlist different values of same/different data type into a python list.
+```python
+# Creating a list
+ShoppingList = ["bag","shoes","water bottle"] # This is how you define a list list1 = [val1, val2 , ...]
 
+# To add new elements to the list
+ShopppingList.append("T-Shirt")
 
+# To remove an element at the ith index
+ShoppingList.pop(0) # This will remove "bag" from the list
 
+# To remove an element by value
+ShoppingList.remove("shoes") 
+```
+
+### Dictionaries
+```python
+
+# Creating a dictionary
+info = {'name':'kaustubh', 'city':'Vadodara'} # We write as key:value pairs in the dictionary
+
+# Can you search a word(key) by using its meaning(value) in the dictionary ?? Nope so even in python 
+# This is how we search in a value .... using the key
+print(info['city']) # Prints Vadodara
+
+# Adding a key:value pair to a dictionary
+info['hobby'] = 'music'
+
+# Editing value for a key in the dictionary
+info['city'] = 'Mumbai' # This will change 'city':'Vadodara pair to 'city':'Mumbai' pair
+
+# Removing a key value pair
+del info['city']
+```
+
+### Loops  
+We use loops to perform certain task multiple times. 
+
+while loop
+```python
+i = 0
+while i <10:
+  i += 1
+  print(i)
+
+# Basically the loop of instructions goes on and on till the while condition is true
+```
+for loop
+```python
+
+for i in range(10):
+  print(i)
+# Prints 0,1,.... till 9
+```
+
+### Functions
+We basically write a set of code inside a function and simply `call` the function when we want those lines of to be executed. With functions we have two cool things we can do ! we can pass some specific values to a function (called arguments) which can be used by the function and if needed the function can also return a value back so it can be used in the remaining code. There are four major types of functions 
+
+1. Functions which neither take argument nor return any argument
+```python
+
+def function1():
+  print("Hi! I am a function that does not take any argument nor return any value")
+
+# How do we use it in the main code ??
+function1()
+
+```
+2. Functions which take in arguments but do not return any value
+```python
+
+def add(a,b):
+  print("Sum of %r and %r is %r"%(a,,b,a+b))
+  
+# Using the function in main code
+add(10,12) # prints >> Sum of 10 and 12 is 22
+```
+
+3. Function which does not take any argument but returns some value
+```python
+
+def getPI():
+  PI = 3.14
+  return 3.14
+
+# using in the main code
+pi = getPI()
+print("Value of pi using the function is %r"%pi)
+```
+
+4. Function which takes input as well as returns some value
+```python
+
+def add(a,b):
+  c = a+b
+  return c
+
+# Using in main function
+a = 10
+b = 12
+c = add(a,b)
+print("Sum of %r and %r is %r"%(a,b,c))
+```
 
 
