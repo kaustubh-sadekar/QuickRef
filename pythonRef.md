@@ -2,7 +2,7 @@
 
 ## Basic
 
-#### Commenting
+### Commenting
 ```python
 # This is a single line comment
 
@@ -13,7 +13,7 @@ comment
 """
 ```
 
-#### Printing
+### Printing
 ```python
 # Printing a custom string
 print("This is so cool")
@@ -31,7 +31,7 @@ print("He has %.4f grams of gold"%c) #prints >> He has 15.4923 grams of gold
 print("He has %.1f grams of gold"%c) #prints >> He has 15.5 grams of gold
 ```
 
-#### Getting user input
+### Getting user input
 
 ```python
 A = input("Enter a number")
@@ -45,7 +45,7 @@ print(A*2) # Now prints >> 24 (if A = 12)
 A = int(input("Enter a number"))
 ```
 
-#### Pass argument through terminal while you run the script
+### Pass argument through terminal while you run the script
 
 chatBot.py
 ```python
@@ -68,7 +68,7 @@ Hi robot !! All I know about you is that you are 10 years old
 ```
 
 
-#### conditional statements
+### conditional statements
 Conditional statements are used frequently in coding. we use one of the following operator`== , <= , < , > , >=` to write a conditional statement comparing the LHS and RHS expression. For example
 ```python
 a = 3
@@ -83,7 +83,7 @@ print( (4<b) or (7 < 4)) # (true OR false) thus this will print true
 print( not(b < 6)) # This will print true
 ```
 
-#### if, elif, else statements
+### if, elif, else statements
 We use if, elif and else to run a perticular set of instructions only if some condition is true. It basically helps our code to have some conditionaly varying behaviour.
 
 ```python
