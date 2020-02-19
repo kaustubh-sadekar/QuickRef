@@ -28,12 +28,28 @@ catkin_create_pkg cretus std_msgs rospy roscpp
 # build the package and catking workspace
 cd ~/catkin_ws
 catkin_make
+
+# Souce the workspace after building the new package
+source ~/catkin_ws/devel/setup.bash
 ```
 
+### Exploring the files in a rospackage or ros workspace
+```shell
+# Get list of all the ros packages in your workspace with their location
+rospack list
 
+# you can directly `cd` to a perticular ros package
+roscd cretus
 
+# cd to the home directory
+cd ~
 
+# find a package directory using 
+rospack find cretus 
 
+# list all the components in a package
+rosls cretus
+```
 
 
 
